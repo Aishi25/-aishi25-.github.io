@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  background: linear-gradient(to right, #a2c2e0, #f7a3a0, #d6a3e4); /* Gradient from light blue to light pink to light purple */
   color: #333;
 }
 
@@ -11,10 +11,13 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
+  background: #ffffff; /* Background color for content sections */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   padding: 20px 0;
   text-align: center;
   border-bottom: 2px solid #ddd;
@@ -27,14 +30,6 @@ header h1 {
 
 header p {
   margin: 10px 0;
-}
-
-header img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin-top: 10px;
 }
 
 .contact-info p {
@@ -67,7 +62,7 @@ ul {
 }
 
 footer {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   padding: 10px 0;
   text-align: center;
   border-top: 2px solid #ddd;
