@@ -11,13 +11,13 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
-  /* Remove background color to blend with gradient */
+  background: #ffffff; /* Solid white background for the content area */
   border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for better readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header {
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for header */
   padding: 20px 0;
   text-align: center;
   border-bottom: 2px solid #ddd;
@@ -62,7 +62,7 @@ ul {
 }
 
 footer {
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for footer */
   padding: 10px 0;
   text-align: center;
   border-top: 2px solid #ddd;
