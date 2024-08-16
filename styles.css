@@ -7,20 +7,11 @@ body {
   color: #333;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  background: #ffffff; /* Solid white background for the content area */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
 header {
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for header */
+  background: linear-gradient(to right, #a2c2e0, #f7a3a0, #d6a3e4); /* Gradient background matching body */
   padding: 20px 0;
   text-align: center;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd; /* Optional: border to separate header from content */
 }
 
 header h1 {
@@ -43,6 +34,15 @@ header p {
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff; /* White background for content area */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 section {
